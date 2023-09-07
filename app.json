@@ -1,4 +1,5 @@
 {
   "name": "MealsApp",
-  "displayName": "MealsApp"
+  "displayName": "MealsApp",
+  "backgroundColor" : "#24180f"
 }

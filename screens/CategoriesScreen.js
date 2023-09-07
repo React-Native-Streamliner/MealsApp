@@ -6,7 +6,7 @@ function renderCategoryItem(itemData) {
     return <CategoryGridTile title={itemData.item.title} color={itemData.item.color} />
 }
 
-function CategoriesScreen() {
+const CategoriesScreen = () => {
   return 
     <FlatList 
       data={CATEGORIES} 
