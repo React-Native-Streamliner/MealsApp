@@ -7,8 +7,7 @@ function renderCategoryItem(itemData) {
 }
 
 const CategoriesScreen = () => {
-  return 
-    <FlatList 
+  return <FlatList 
       data={CATEGORIES} 
       keyExtractor={(item) => item.id} 
       renderItem={renderCategoryItem}
